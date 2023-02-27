@@ -1,0 +1,122 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Hello</title>
+
+   <link rel="stylesheet" href="css/main.css">
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+   <script type="text/javascript">
+      emailjs.init('-AlbKbVvCTP2xs6GJ')
+   </script>
+   <script src="libs/gsap/gsap.min.js" defer></script>
+   <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+   <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="content ">
+         <header class="main-header">
+            <div class="layers">
+               <div class="layer__header">
+                  <div class="layers__title">Magic Forest</div>
+                  <div class="layers__caption"> Welcom to my page</div>
+               </div>
+               <div class="layer layers__base " style="background-image: url(img/header-img-01.png);"></div>
+               <div class="layer layers__middle" style="background-image: url(img/header-img-02.png);"></div>
+               <div class="layer layers__front" style="background-image: url(img/header-img-03.png);"></div>
+               <div class="myDiv">
+                  <h1>awfawefargarfewfaef</h1>
+               </div>
+            </div>
+         </header>
+
+         <article class="main-acrticle" style="background-image: url(img/midle-img.png);">
+            <div class="main-article__content">
+               <h2 class="footer-article__header"> Who I am</h2>
+               <p class="footer-article__paragraph">As a 27-year-old guy with a passion for virtual reality games, I am
+                  determined to
+                  transition into a career as a
+                  front-end developer. I have always been fascinated by the art of coding and am committed to learning
+                  the skills
+                  necessary to succeed in this field. In addition to my interest in programming, I also have a love for
+                  cooking sweets
+                  and
+                  exploring nature through hiking in the mountains.
+
+                  My previous work as a painter in Poland has taught me the importance of attention to detail and
+                  working efficiently
+                  as
+                  part of a team. I am confident that these skills will be transferable to my future work as a
+                  programmer.
+
+                  Through my dedication to self-improvement and my desire to continuously learn and grow, I believe that
+                  I have the
+                  potential to be an asset to any team. I am excited to embark on this new chapter of my career and am
+                  eager to make a
+                  positive impact in the field of front-end development.</p>
+
+            </div>
+
+
+
+         </article>
+         <article class="main-acrticle"  style="background-image: url(img/footer-img.png);">
+            <div id="footer" class="main-article__content" >
+              
+               <div id="footer" class="main-article__content"><form id="form">
+                  <h4 class="footer-article__header">Сontact me</h4>
+                  <div class="form-grup ">
+                     <label for="from_name">Name</label>
+                     <input autocomplete="off" type="text" name="from_name" id="from_name" placeholder="Your name">
+                     <div class="error-hint hidden">Your name is required.</div>
+                  </div>
+               
+               
+               
+                  <div class="form-grup ">
+                     <label for="email_id">Email</label>
+                     <input autocomplete="off" type="text" name="email_id" id="email_id" placeholder="Your email">
+                     <div class="error-hint hidden">Your email is invalid</div>
+                  </div>
+                  <div class="form-grup">
+                     <label for="message">Message</label>
+                     <textarea type="text" id="message" name="message"
+                        placeholder="The message you want to send to me by email"></textarea>
+                     <div class="error-hint hidden">Please write information</div>
+                  </div>
+                  <button type="" id="button" title="will fill all forms in order for the button to be activated" disabled>Submit message</button>
+               </form>
+               <div class="thank-you hidden" id="End">
+                  Thank you for fit back!!
+               </div>
+            </div>
+            </div>
+
+
+
+
+            <div class="copy">© Zheka Grem</div>
+         </article>
+
+
+         <footer>
+
+         </footer>
+
+
+      </div>
+   </div>
+</body>
+<script src="js/app.js" defer> </script>
+
+</html>
