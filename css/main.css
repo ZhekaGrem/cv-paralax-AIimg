@@ -200,7 +200,7 @@ form {
    background-color: rgba(231, 109, 119, 0.5);
    color: #fff;
    border: none; 
-   width: 60vh;
+   width: 100%;
    padding: 10px;
    font-size: 20px;
    margin-bottom: 4px;
@@ -231,13 +231,13 @@ hr{
 }
 
 button{
-   
+   font-weight: bold;
    padding: 10px;
    font-size: 24px;
    background: none;
-   border: 1px solid #1F1A4B;
+   border: 1px solid #ff8502;
    border-radius: 10px;
-   color: #1F1A4B;
+   color: #b35c00;
    transition: all 0.7s;
    cursor: pointer;
    float: right;
@@ -245,7 +245,7 @@ button{
 }
 
 button:hover{
-   background-color:#1F1A4B ;
+   background-color:#ff8502 ;
    color: #010101;
 
 }
